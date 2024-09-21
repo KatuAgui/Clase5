@@ -9,5 +9,9 @@ public class Main {
         List<Tarea> tareas = new ArrayList<>();
         tareas.add(new Tarea("Tarea 1"));
         tareas.add(new Tarea("Tarea 2"));
+
+        for (Tarea tarea : tareas){
+            System.out.printf(String.valueOf(tarea));
+        }
     }
 }
